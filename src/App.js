@@ -1,17 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
-import MissionInput from './components/MissionInput/MissionInput';
+import './App.css';
+import ToDoPage from './pages/ToDoPage/ToDoPage';
 
 function App() {
   return (
     
-    <Container>
-      <MissionInput/>
-    </Container>
 
-    
+  <ToDoPage/>   
   );
 }
 
